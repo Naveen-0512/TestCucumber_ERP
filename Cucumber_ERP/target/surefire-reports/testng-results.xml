@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Supplier-00000007897        Supplier-00000007897]]>
+    </line>
+    <line>
+      <![CDATA[Supplier Number Added Success]]>
+    </line>
+    <line>
+      <![CDATA[Supplier-00000007898        Supplier-00000007898]]>
+    </line>
+    <line>
+      <![CDATA[Supplier Number Added Success]]>
+    </line>
+    <line>
+      <![CDATA[Supplier-00000007899        Supplier-00000007345]]>
+    </line>
+    <line>
+      <![CDATA[Supplier Number Added Fail]]>
+    </line>
+    <line>
+      <![CDATA[Supplier-00000007900        Supplier-00000007345]]>
+    </line>
+    <line>
+      <![CDATA[Supplier Number Added Fail]]>
+    </line>
+    <line>
+      <![CDATA[Customer-00000013203         Customer-00000013203]]>
+    </line>
+    <line>
+      <![CDATA[Customer-00000013204         Customer-00000013204]]>
+    </line>
+    <line>
+      <![CDATA[Customer-00000013205         Customer-00000013205]]>
+    </line>
+    <line>
+      <![CDATA[Customer-00000013206         Customer-00000013206]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-11-27T09:18:32 IST" name="Surefire suite" finished-at="2024-11-27T09:20:08 IST" duration-ms="96466">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(cucumber.api.testng.PickleEventWrapper,cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:testRunner.AppTest@7f010382]" name="runScenario" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2024-11-27T09:18:32 IST" name="Surefire test" finished-at="2024-11-27T09:20:08 IST" duration-ms="96466">
+      <class name="testRunner.AppTest">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:testRunner.AppTest@7f010382]" started-at="2024-11-27T09:18:32 IST" name="setUpClass" finished-at="2024-11-27T09:18:32 IST" duration-ms="288" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(cucumber.api.testng.PickleEventWrapper,cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:testRunner.AppTest@7f010382]" started-at="2024-11-27T09:18:32 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-27T09:18:47 IST" duration-ms="14873" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[""]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[""]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Supplier-00000007897        Supplier-00000007897]]>
+            </line>
+            <line>
+              <![CDATA[Supplier Number Added Success]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(cucumber.api.testng.PickleEventWrapper,cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:testRunner.AppTest@7f010382]" started-at="2024-11-27T09:18:47 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-27T09:18:59 IST" duration-ms="12039" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[""]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[""]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Supplier-00000007898        Supplier-00000007898]]>
+            </line>
+            <line>
+              <![CDATA[Supplier Number Added Success]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(cucumber.api.testng.PickleEventWrapper,cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:testRunner.AppTest@7f010382]" started-at="2024-11-27T09:18:59 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-27T09:19:11 IST" duration-ms="11691" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[""]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[""]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Supplier-00000007899        Supplier-00000007345]]>
+            </line>
+            <line>
+              <![CDATA[Supplier Number Added Fail]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(cucumber.api.testng.PickleEventWrapper,cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:testRunner.AppTest@7f010382]" started-at="2024-11-27T09:19:11 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-27T09:19:22 IST" duration-ms="11470" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[""]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[""]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Supplier-00000007900        Supplier-00000007345]]>
+            </line>
+            <line>
+              <![CDATA[Supplier Number Added Fail]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(cucumber.api.testng.PickleEventWrapper,cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:testRunner.AppTest@7f010382]" started-at="2024-11-27T09:19:22 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-27T09:19:34 IST" duration-ms="11258" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[""]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[""]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Customer-00000013203         Customer-00000013203]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(cucumber.api.testng.PickleEventWrapper,cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:testRunner.AppTest@7f010382]" started-at="2024-11-27T09:19:34 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-27T09:19:45 IST" duration-ms="11148" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[""]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[""]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Customer-00000013204         Customer-00000013204]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(cucumber.api.testng.PickleEventWrapper,cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:testRunner.AppTest@7f010382]" started-at="2024-11-27T09:19:45 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-27T09:19:56 IST" duration-ms="11365" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[""]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[""]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Customer-00000013205         Customer-00000013205]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(cucumber.api.testng.PickleEventWrapper,cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:testRunner.AppTest@7f010382]" started-at="2024-11-27T09:19:56 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-27T09:20:08 IST" duration-ms="11873" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[""]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[""]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Customer-00000013206         Customer-00000013206]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:testRunner.AppTest@7f010382]" started-at="2024-11-27T09:20:08 IST" name="tearDownClass" finished-at="2024-11-27T09:20:08 IST" duration-ms="293" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- testRunner.AppTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
